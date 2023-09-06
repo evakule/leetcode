@@ -20,7 +20,9 @@ public class MaxConsecutiveOnesIII1004 {
       }
 
       if (k < 0) {
-        k = k + 1 - nums[left];
+        if (nums[left] == 0) {
+          k++;
+        }
         left++;
       }
       maxLength = Math.max(maxLength, right - left + 1);
