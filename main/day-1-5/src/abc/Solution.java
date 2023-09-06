@@ -6,7 +6,7 @@ class Solution {
     //677 - error (ZA)
 //    System.out.println(getLetters(78, ""));
 //    System.out.println(getLetters(79, ""));
-//    System.out.println(getLetters(80, ""));
+//    System.out.println(convertToTitle(80, ""));
 //    System.out.println(getLetters(676, ""));
 //    System.out.println(getLetters(677, ""));
 //    System.out.println(getLetters(5, ""));
@@ -18,7 +18,7 @@ class Solution {
   }
 
 
-  private static String getLetters(int number, String in) {
+  private static String convertToTitle(int number, String in) {
     String abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     if (number <= 0) {
       return in;
@@ -36,7 +36,7 @@ class Solution {
         in = abc.charAt(number % 26 - 1) + in;
       }
 
-      return getLetters(res, in);
+      return convertToTitle(res, in);
     }
   }
 
