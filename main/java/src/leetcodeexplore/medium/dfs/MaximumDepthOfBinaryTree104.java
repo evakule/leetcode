@@ -70,4 +70,8 @@ class TreeNode {
     this.left = left;
     this.right = right;
   }
+
+  void show() {
+    System.out.println(val);
+  }
 }
