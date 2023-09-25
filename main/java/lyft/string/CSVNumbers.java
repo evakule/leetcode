@@ -1,6 +1,6 @@
-package src.abc;
+package lyft.string;
 
-class Solution {
+class CSVNumbers {
 
   public static void main(String[] args) {
     //677 - error (ZA)
