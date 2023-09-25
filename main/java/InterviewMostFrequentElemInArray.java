@@ -23,4 +23,31 @@ public class InterviewMostFrequentElemInArray {
 
     return result;
   }
+
+  //using TreeSet instead of PriorityQueue (worse than PQ)
+  public static int[] get2(int[] array, int k) {
+    int[] result = new int[k];
+    Map<Integer, Integer> map = new HashMap<>();
+    TreeSet<Map.Entry<Integer, Integer>> treeSet = new TreeSet<>(
+        (a, b) -> {
+          int cmp = b.getValue().compareTo(a.getValue());
+          return cmp != 0 ? cmp : a.getKey().compareTo(b.getKey());
+        }
+    );
+
+    for (int j : array) {
+      map.put(j, map.getOrDefault(j, 0) + 1);
+    }
+
+    treeSet.addAll(map.entrySet());
+
+    int i = 0;
+    for (Map.Entry<Integer, Integer> entry : treeSet) {
+      result[i++] = entry.getKey();
+      if (i == k) break;
+    }
+
+    return result;
+  }
+
 }
