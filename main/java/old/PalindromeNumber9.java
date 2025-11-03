@@ -1,4 +1,4 @@
-package lyft;
+package old;
 
 public class PalindromeNumber9 {
   public static void main(String[] args) {

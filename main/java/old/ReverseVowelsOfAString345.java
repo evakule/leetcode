@@ -1,6 +1,4 @@
-package lyft;
-
-import java.util.Arrays;
+package old;
 
 public class ReverseVowelsOfAString345 {
   /**

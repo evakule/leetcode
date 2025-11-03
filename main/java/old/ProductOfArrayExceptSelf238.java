@@ -1,7 +1,6 @@
-package lyft;
+package old;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class ProductOfArrayExceptSelf238 {
 

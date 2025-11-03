@@ -1,4 +1,4 @@
-package lyft;
+package old;
 
 public class FindTheHighestAltitude1732 {
 

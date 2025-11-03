@@ -1,4 +1,4 @@
-package lyft;
+package old;
 
 public class FindPivotIndex724 {
   public static void main(String[] args) {

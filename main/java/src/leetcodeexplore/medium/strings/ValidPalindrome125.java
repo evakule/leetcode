@@ -1,6 +1,4 @@
-package lyft.string;
-
-import java.util.Locale;
+package old.string;
 
 public class ValidPalindrome125 {
   public static void main(String[] args) {

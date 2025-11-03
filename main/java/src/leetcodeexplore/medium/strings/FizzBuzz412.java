@@ -1,4 +1,4 @@
-package lyft.string;
+package old.string;
 
 import java.util.List;
 import java.util.stream.Collectors;

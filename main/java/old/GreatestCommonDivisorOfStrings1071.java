@@ -1,4 +1,4 @@
-package lyft;
+package old;
 
 public class GreatestCommonDivisorOfStrings1071 {
   public static void main(String[] args) {

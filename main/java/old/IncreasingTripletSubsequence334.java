@@ -1,7 +1,4 @@
-package lyft;
-
-import java.util.HashSet;
-import java.util.Set;
+package old;
 
 public class IncreasingTripletSubsequence334 {
   public static void main(String[] args) {

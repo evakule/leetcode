@@ -1,4 +1,4 @@
-package lyft;
+package old;
 
 public class MaximumAverageSubarrayI643 {
   public static void main(String[] args) {
